@@ -8,8 +8,6 @@ This repository provides a practical starting point for preparing, checking, and
 
 - concise notes from the official Guide for Authors;
 - LaTeX manuscript templates using Elsevier CAS style;
-- optional Word/cover-letter/checklist templates;
-- scripts for compiling, cleaning, and packaging submissions;
 - reproducibility guidance for code, data, figures, and supplementary material;
 - contact and support links for contributors and authors.
 
@@ -23,7 +21,7 @@ The following is a brief, paraphrased checklist for convenience. Confirm details
 - **Typical article length:** JMVA notes that an article is generally **15–25 pages**.
 - **Proofs:** Proofs of propositions, theorems, and lemmas should appear in the main text or an appendix, not only in supplementary material.
 - **Review model:** The journal uses a single-anonymized peer-review process.
-- **Source files:** Editable source files are required. Use `.tex` for LaTeX submissions or `.doc/.docx` for Word submissions. A PDF alone is not an acceptable source file.
+- **Source files:** Editable source files are required. Use `.tex` for submissions.
 - **Abstract:** Keep the abstract concise, factual, and no more than **250 words**.
 - **Keywords:** Provide **1–7 keywords** in English.
 - **Highlights:** Highlights are encouraged. Use **3–5 bullet points**, each no more than **85 characters including spaces**, and submit them as a separate editable file.
@@ -33,19 +31,16 @@ The following is a brief, paraphrased checklist for convenience. Confirm details
 - **References:** At initial submission, references may use any consistent style, but required bibliographic details and DOIs should be included where available.
 - **Generative AI:** Any use of generative AI or AI-assisted tools in manuscript preparation must be declared when required by Elsevier policy.
 
-
-## Templates
-
-### LaTeX templates
+## LaTeX templates
 
 This repository is designed for Elsevier CAS-style LaTeX submissions.
 
 Recommended template folders:
 
-- `templates/cas-sc/` — single-column CAS manuscript template using `cas-sc.cls`.
-- `templates/cas-dc/` — double-column CAS manuscript template using `cas-dc.cls`.
-- `templates/cas-sc/references.bib` — sample BibTeX database.
-- `templates/cas-sc/highlights.tex` — separate highlights file.
+- `templates/cas-sc.cls` — single-column CAS manuscript template.
+- `templates/cas-dc.cls` — double-column CAS manuscript template.
+- `templates/references.bib` — sample BibTeX database.
+- `templates/highlights.tex` — separate highlights file.
 
 ## Submission package checklist
 
@@ -86,12 +81,9 @@ Do not commit confidential data, identifiable human-subject data, licensed datas
 For editorial decisions, manuscript status, technical upload problems, copyright questions, publication delays, or proof corrections, contact Elsevier or the journal through the official submission/support channels rather than this repository. 
 
 - [JMVA Guide for Authors on ScienceDirect](https://www.sciencedirect.com/journal/journal-of-multivariate-analysis/publish/guide-for-authors)
-- [JMVA journal homepage on ScienceDirect](https://www.sciencedirect.com/journal/journal-of-multivariate-analysis)
 - [Submit to JMVA](https://submit.elsevier.com/JMVA)
 - [Elsevier LaTeX instructions](https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions)
 - [Elsevier support: submitting LaTeX files in Editorial Manager](https://www.elsevier.support/publishing/answer/how-to-submit-a-latex-file-in-editorial-manager)
-- [Elsevier Journal Article Publishing Support Center](https://service.elsevier.com/)
-
 
 ## Disclaimer
 
